@@ -7,8 +7,8 @@ function trap(height) {
   let maxLeft = height[0];
   let maxRight = height[height.length - 1];
 
-  let left = 1;
-  let right = height.length - 2;
+  let left = 0;
+  let right = height.length - 1;
   let total = 0 //current
 
   while (left <= right) {
